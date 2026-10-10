@@ -33,21 +33,28 @@
             </header>
             <article>
             <h2>Contact Form</h2>
-            <form>
-             <label for="name">Name:</label>
-             <input type="text" id="name" name="name" required>
-             
-             <label for="email">Email:</label>
-             <input type="email" id="email" name="email" required>
-             
-             <label for="cell">Cell No.:</label>
-             <input type="tel" id="cell" name="cell" required>
-             <label for="comments">Comments:</label>
-             
-             <textarea id="comments" name="comments" rows="5" cols="30" required></textarea>
-             <input type="submit" value="Submit">
+       
+     <form action="mailto:josephjr.obeng@ontariotechu.net"
+      method="post"
+      enctype="text/plain"
+      name="form">
 
-             </form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="cell">Cell No.:</label>
+    <input type="number" id="cell" name="cell" required>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments"
+              rows="5" cols="30" required></textarea>
+
+    <input type="submit" value="Submit">
+
+    </form>
              </article>
           <footer>
             <p>Email: josephjr.obeng@ontariotechu.net</p>
